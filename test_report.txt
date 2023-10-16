@@ -17,7 +17,7 @@ FAIL src/App.test.tsx
       [36m<div>[39m
         [36m<div>[39m
           [36m<p>[39m
-            [0mAndrew Fonseca, Shrey Patel, Mann Patel, Thiago Vazquez[0m
+            [0mAndrew Fonseca, Shrey Patel, Mann Patel, Thiago Vazquez, Devlan Horner[0m
           [36m</p>[39m
         [36m</div>[39m
       [36m</div>[39m
@@ -50,5 +50,5 @@ All files |     100 |      100 |     100 |     100 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.527 s
+Time:        1.57 s
 Ran all test suites.

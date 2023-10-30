@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (31 ms)
+  ✕ renders the course name somewhere (75 ms)
 
   ● renders the course name somewhere
 
@@ -19,6 +19,120 @@ FAIL src/App.test.tsx
           [36m<p>[39m
             [0mAndrew Fonseca, Shrey Patel, Mann Patel, Thiago Vazquez, Devlan Horner[0m
           [36m</p>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"semester-courses"[39m
+          [36m>[39m
+            [36m<div>[39m
+              [36m<h2>[39m
+                [0mFall 2022[0m
+              [36m</h2>[39m
+              [36m<table>[39m
+                [36m<thead>[39m
+                  [36m<tr>[39m
+                    [36m<th>[39m
+                      [0mCourse Code[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mCourse Name[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mCredits[0m
+                    [36m</th>[39m
+                  [36m</tr>[39m
+                [36m</thead>[39m
+                [36m<tbody>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mCISC101[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mIntroduction to Computer Science[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m3[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mMATH201[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mCalculus I[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m4[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mENGL101[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mEnglish Composition[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m3[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                [36m</tbody>[39m
+              [36m</table>[39m
+            [36m</div>[39m
+            [36m<div>[39m
+              [36m<h2>[39m
+                [0mSpring 2023[0m
+              [36m</h2>[39m
+              [36m<table>[39m
+                [36m<thead>[39m
+                  [36m<tr>[39m
+                    [36m<th>[39m
+                      [0mCourse Code[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mCourse Name[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mCredits[0m
+                    [36m</th>[39m
+                  [36m</tr>[39m
+                [36m</thead>[39m
+                [36m<tbody>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mCISC201[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mData Structures[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m3[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mMATH202[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mCalculus II[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m4[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mPHYS101[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mPhysics I[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m4[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                [36m</tbody>[39m
+              [36m</table>[39m
+            [36m</div>[39m
+          [36m</div>[39m
         [36m</div>[39m
       [36m</div>[39m
     [36m</body>[39m
@@ -41,14 +155,15 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------|---------|----------|---------|---------|-------------------
-File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
-----------|---------|----------|---------|---------|-------------------
-All files |     100 |      100 |     100 |     100 |                   
- App.tsx  |     100 |      100 |     100 |     100 |                   
-----------|---------|----------|---------|---------|-------------------
+---------------------|---------|----------|---------|---------|-------------------
+File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+---------------------|---------|----------|---------|---------|-------------------
+All files            |     100 |      100 |     100 |     100 |                   
+ App.tsx             |     100 |      100 |     100 |     100 |                   
+ SemesterCourses.tsx |     100 |      100 |     100 |     100 |                   
+---------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.57 s
+Time:        2.185 s
 Ran all test suites.

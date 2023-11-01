@@ -5,8 +5,26 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+  console.error
+    Warning: validateDOMNesting(...): <h2> cannot appear as a child of <h2>.
+        at h2
+        at h2
+        at div
+        at div
+        at SemesterCourses (/home/runner/work/Final-Project/Final-Project/src/SemesterCourses.tsx:21:60)
+        at div
+        at App
+
+      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
+      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
+      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:10081:7)
+      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:10181:5)
+      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19464:28)
+      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
+      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
+
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (75 ms)
+  ✕ renders the course name somewhere (113 ms)
 
   ● renders the course name somewhere
 
@@ -25,6 +43,7 @@ FAIL src/App.test.tsx
             [36m<div>[39m
               [36m<h2>[39m
                 [0mFall 2022[0m
+                [0m(Skipped)[0m
               [36m</h2>[39m
               [36m<table>[39m
                 [36m<thead>[39m
@@ -79,7 +98,9 @@ FAIL src/App.test.tsx
             [36m</div>[39m
             [36m<div>[39m
               [36m<h2>[39m
-                [0mSpring 2023[0m
+                [36m<h2>[39m
+                  [0mSpring 2023[0m
+                [36m</h2>[39m
               [36m</h2>[39m
               [36m<table>[39m
                 [36m<thead>[39m
@@ -165,5 +186,5 @@ All files            |     100 |      100 |     100 |     100 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.185 s
+Time:        2.221 s
 Ran all test suites.

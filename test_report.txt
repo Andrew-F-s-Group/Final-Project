@@ -5,24 +5,6 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-  console.error
-    Warning: validateDOMNesting(...): <h2> cannot appear as a child of <h2>.
-        at h2
-        at h2
-        at div
-        at div
-        at SemesterCourses (/home/runner/work/Final-Project/Final-Project/src/SemesterCourses.tsx:21:60)
-        at div
-        at App
-
-      at printWarning (node_modules/react-dom/cjs/react-dom.development.js:67:30)
-      at error (node_modules/react-dom/cjs/react-dom.development.js:43:5)
-      at validateDOMNesting (node_modules/react-dom/cjs/react-dom.development.js:10081:7)
-      at createInstance (node_modules/react-dom/cjs/react-dom.development.js:10181:5)
-      at completeWork (node_modules/react-dom/cjs/react-dom.development.js:19464:28)
-      at completeUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22812:16)
-      at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22787:5)
-
 FAIL src/App.test.tsx
   ✕ renders the course name somewhere (113 ms)
 
@@ -41,10 +23,6 @@ FAIL src/App.test.tsx
             [33mclass[39m=[32m"semester-courses"[39m
           [36m>[39m
             [36m<div>[39m
-              [36m<h2>[39m
-                [0mFall 2022[0m
-                [0m(Skipped)[0m
-              [36m</h2>[39m
               [36m<table>[39m
                 [36m<thead>[39m
                   [36m<tr>[39m
@@ -57,106 +35,147 @@ FAIL src/App.test.tsx
                     [36m<th>[39m
                       [0mCredits[0m
                     [36m</th>[39m
+                    [36m<th>[39m
+                      [0mDescription[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mPrerequisites[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mRestrictions[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mBreadth[0m
+                    [36m</th>[39m
+                    [36m<th>[39m
+                      [0mTypically Offered[0m
+                    [36m</th>[39m
                   [36m</tr>[39m
                 [36m</thead>[39m
                 [36m<tbody>[39m
                   [36m<tr>[39m
                     [36m<td>[39m
-                      [0mCISC101[0m
+                      [0mCISC 108[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0mIntroduction to Computer Science[0m
+                      [0mIntroduction to Computer Science I[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0m3[0m
+                      [0m 3[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mComputing and principles of programming with an emphasis on systematic program design. Topics include functional programming, data abstraction, procedural abstraction, use of control and state, recursion, testing, and object-oriented programming concepts. Requires no prior programming experience, open to any major, but intended primarily for majors and minors in computer science or mathematics.[0m
+                    [36m</td>[39m
+                    [36m<td />[39m
+                    [36m<td />[39m
+                    [36m<td>[39m
+                      [0mUniversity: Mathematics, Natural Sciences and Technology; A&S: GROUP D: A&S Math, Nat Sci & Technology[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mFall and Spring[0m
                     [36m</td>[39m
                   [36m</tr>[39m
                   [36m<tr>[39m
                     [36m<td>[39m
-                      [0mMATH201[0m
+                      [0mEGGG 101[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0mCalculus I[0m
+                      [0mIntroduction to Engineering[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0m4[0m
+                      [0m 2[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mIntroduction to profession, including disciplines of chemical, civil, computer, electrical, environmental, and mechanical engineering.  Prepares students for success through integration of:  technical problem solving and engineering design, ethical decision-making, teamwork, and communicating to diverse audiences.[0m
+                    [36m</td>[39m
+                    [36m<td />[39m
+                    [36m<td />[39m
+                    [36m<td>[39m
+                      [0mUniversity: ; A&S: [0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mFall[0m
                     [36m</td>[39m
                   [36m</tr>[39m
                   [36m<tr>[39m
                     [36m<td>[39m
-                      [0mENGL101[0m
+                      [0mENGL 110[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0mEnglish Composition[0m
+                      [0mSeminar in Composition[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0m3[0m
+                      [0m 3[0m
+                    [36m</td>[39m
+                    [36m<td />[39m
+                    [36m<td />[39m
+                    [36m<td>[39m
+                      [0mRequired of all students. Should be taken first year on campus.[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mUniversity: ; A&S: [0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mFall, Winter, Spring, Summer[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mMATH 241[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mAnalytic Geometry and Calculus A[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m 4[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mFunctions, limits, continuity, derivatives. Polynomial, rational, exponential, hyperbolic, logarithmic, trigonometric and inverse trigonometric functions. Definite and indefinite integrals and the Fundamental Theorem of Calculus. Simple differential equations (separable ODE, linear ODE). ODE models leading to exponential growth and decay.[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mMATH 117 or acceptable score on the Math Placement Exam in accordance with current standards determined by the Department of Mathematical Sciences. See https://www.mathsci.udel.edu/courses-placement/ud-math-placement for more information.[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mStudents who received credit in MATH 242 or MATH 243 are not eligible to take this course without permission.[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mUniversity: Mathematics, Natural Sciences and Technology; A&S: GROUP D: A&S Math, Nat Sci & Technology[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mFall, Winter, Spring, Summer[0m
+                    [36m</td>[39m
+                  [36m</tr>[39m
+                  [36m<tr>[39m
+                    [36m<td>[39m
+                      [0mUNIV 166[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mSpecial Problem[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0m 1-4[0m
+                    [36m</td>[39m
+                    [36m<td />[39m
+                    [36m<td />[39m
+                    [36m<td />[39m
+                    [36m<td>[39m
+                      [0mUniversity: ; A&S: [0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [0mVerify offering with Dept[0m
                     [36m</td>[39m
                   [36m</tr>[39m
                 [36m</tbody>[39m
               [36m</table>[39m
             [36m</div>[39m
             [36m<div>[39m
-              [36m<h2>[39m
-                [36m<h2>[39m
-                  [0mSpring 2023[0m
-                [36m</h2>[39m
-              [36m</h2>[39m
               [36m<table>[39m
                 [36m<thead>[39m
                   [36m<tr>[39m
                     [36m<th>[39m
                       [0mCourse Code[0m
                     [36m</th>[39m
-                    [36m<th>[39m
-                      [0mCourse Name[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mCredits[0m
-                    [36m</th>[39m
-                  [36m</tr>[39m
-                [36m</thead>[39m
-                [36m<tbody>[39m
-                  [36m<tr>[39m
-                    [36m<td>[39m
-                      [0mCISC201[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mData Structures[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0m3[0m
-                    [36m</td>[39m
-                  [36m</tr>[39m
-                  [36m<tr>[39m
-                    [36m<td>[39m
-                      [0mMATH202[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mCalculus II[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0m4[0m
-                    [36m</td>[39m
-                  [36m</tr>[39m
-                  [36m<tr>[39m
-                    [36m<td>[39m
-                      [0mPHYS101[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mPhysics I[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0m4[0m
-                    [36m</td>[39m
-                  [36m</tr>[39m
-                [36m</tbody>[39m
-              [36m</table>[39m
-            [36m</div>[39m
-          [36m</div>[39m
-        [36m</div>[39m
-      [36m</div>[39m
-    [36m</body>[39m
+                    [36m<th>[39m...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -176,15 +195,15 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
----------------------|---------|----------|---------|---------|-------------------
-File                 | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
----------------------|---------|----------|---------|---------|-------------------
-All files            |     100 |      100 |     100 |     100 |                   
- App.tsx             |     100 |      100 |     100 |     100 |                   
- SemesterCourses.tsx |     100 |      100 |     100 |     100 |                   
----------------------|---------|----------|---------|---------|-------------------
+-------------|---------|----------|---------|---------|-------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
+-------------|---------|----------|---------|---------|-------------------
+All files    |     100 |      100 |     100 |     100 |                   
+ App.tsx     |     100 |      100 |     100 |     100 |                   
+ Planner.tsx |     100 |      100 |     100 |     100 |                   
+-------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.221 s
+Time:        1.621 s
 Ran all test suites.

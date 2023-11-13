@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (113 ms)
+  ✕ renders the course name somewhere (200 ms)
 
   ● renders the course name somewhere
 
@@ -23,6 +23,18 @@ FAIL src/App.test.tsx
             [33mclass[39m=[32m"semester-courses"[39m
           [36m>[39m
             [36m<div>[39m
+              [36m<h2>[39m
+                [0mFall 2022[0m
+              [36m</h2>[39m
+              [36m<button>[39m
+                [0mSkip[0m
+              [36m</button>[39m
+              [36m<button>[39m
+                [0mClear Courses in Semester[0m
+              [36m</button>[39m
+              [36m<button>[39m
+                [0mInsert New Course[0m
+              [36m</button>[39m
               [36m<table>[39m
                 [36m<thead>[39m
                   [36m<tr>[39m
@@ -74,6 +86,11 @@ FAIL src/App.test.tsx
                     [36m<td>[39m
                       [0mFall and Spring[0m
                     [36m</td>[39m
+                    [36m<td>[39m
+                      [36m<button>[39m
+                        [0mRemove Course[0m
+                      [36m</button>[39m
+                    [36m</td>[39m
                   [36m</tr>[39m
                   [36m<tr>[39m
                     [36m<td>[39m
@@ -96,6 +113,11 @@ FAIL src/App.test.tsx
                     [36m<td>[39m
                       [0mFall[0m
                     [36m</td>[39m
+                    [36m<td>[39m
+                      [36m<button>[39m
+                        [0mRemove Course[0m
+                      [36m</button>[39m
+                    [36m</td>[39m
                   [36m</tr>[39m
                   [36m<tr>[39m
                     [36m<td>[39m
@@ -117,6 +139,11 @@ FAIL src/App.test.tsx
                     [36m</td>[39m
                     [36m<td>[39m
                       [0mFall, Winter, Spring, Summer[0m
+                    [36m</td>[39m
+                    [36m<td>[39m
+                      [36m<button>[39m
+                        [0mRemove Course[0m
+                      [36m</button>[39m
                     [36m</td>[39m
                   [36m</tr>[39m
                   [36m<tr>[39m
@@ -144,38 +171,10 @@ FAIL src/App.test.tsx
                     [36m<td>[39m
                       [0mFall, Winter, Spring, Summer[0m
                     [36m</td>[39m
-                  [36m</tr>[39m
-                  [36m<tr>[39m
                     [36m<td>[39m
-                      [0mUNIV 166[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mSpecial Problem[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0m 1-4[0m
-                    [36m</td>[39m
-                    [36m<td />[39m
-                    [36m<td />[39m
-                    [36m<td />[39m
-                    [36m<td>[39m
-                      [0mUniversity: ; A&S: [0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mVerify offering with Dept[0m
-                    [36m</td>[39m
-                  [36m</tr>[39m
-                [36m</tbody>[39m
-              [36m</table>[39m
-            [36m</div>[39m
-            [36m<div>[39m
-              [36m<table>[39m
-                [36m<thead>[39m
-                  [36m<tr>[39m
-                    [36m<th>[39m
-                      [0mCourse Code[0m
-                    [36m</th>[39m
-                    [36m<th>[39m...
+                      [36m<button>[39m
+                        [0mRemove Course[0m
+                      ...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -195,15 +194,15 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
--------------|---------|----------|---------|---------|-------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
--------------|---------|----------|---------|---------|-------------------
-All files    |     100 |      100 |     100 |     100 |                   
- App.tsx     |     100 |      100 |     100 |     100 |                   
- Planner.tsx |     100 |      100 |     100 |     100 |                   
--------------|---------|----------|---------|---------|-------------------
+-------------|---------|----------|---------|---------|-----------------------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                 
+-------------|---------|----------|---------|---------|-----------------------------------
+All files    |   40.74 |       50 |   33.33 |   40.74 |                                   
+ App.tsx     |     100 |      100 |     100 |     100 |                                   
+ Planner.tsx |      36 |       50 |   27.27 |      36 | 38-40,44-46,50-52,56-58,70-78,119 
+-------------|---------|----------|---------|---------|-----------------------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.621 s
+Time:        2.383 s
 Ran all test suites.

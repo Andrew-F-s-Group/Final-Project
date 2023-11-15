@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (128 ms)
+  ✕ renders the course name somewhere (129 ms)
 
   ● renders the course name somewhere
 
@@ -22,6 +22,12 @@ FAIL src/App.test.tsx
           [36m<div[39m
             [33mclass[39m=[32m"semester-courses"[39m
           [36m>[39m
+            [36m<button>[39m
+              [0mInsert New Semester[0m
+            [36m</button>[39m
+            [36m<button>[39m
+              [0mClear All Semesters[0m
+            [36m</button>[39m
             [36m<div>[39m
               [36m<h2>[39m
                 [0mFall 2022[0m
@@ -34,6 +40,9 @@ FAIL src/App.test.tsx
               [36m</button>[39m
               [36m<button>[39m
                 [0mInsert New Course[0m
+              [36m</button>[39m
+              [36m<button>[39m
+                [0mRemove Semester[0m
               [36m</button>[39m
               [36m<table>[39m
                 [36m<thead>[39m
@@ -171,11 +180,7 @@ FAIL src/App.test.tsx
                     [36m<td>[39m
                       [0mMATH 117 or acceptable score on the Math Placement Exam in accordance with current standards determined by the Department of Mathematical Sciences. See https://www.mathsci.udel.edu/courses-placement/ud-math-placement for more information.[0m
                     [36m</td>[39m
-                    [36m<td>[39m
-                      [0mStudents who received credit in MATH 242 or MATH 243 are not eligible to take this course without permission.[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mUniversity: Mathematics, Natural Sciences...
+                ...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -195,15 +200,15 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
--------------|---------|----------|---------|---------|---------------------------------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                           
--------------|---------|----------|---------|---------|---------------------------------------------
-All files    |    37.5 |       10 |   28.57 |    37.5 |                                             
- App.tsx     |     100 |      100 |     100 |     100 |                                             
- Planner.tsx |   33.33 |       10 |   23.07 |   33.33 | 38-40,44-46,50-52,56-58,65-67,79-87,128-181 
--------------|---------|----------|---------|---------|---------------------------------------------
+-------------|---------|----------|---------|---------|--------------------------------------------------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                            
+-------------|---------|----------|---------|---------|--------------------------------------------------------------
+All files    |   34.88 |       10 |   21.05 |   35.71 |                                                              
+ App.tsx     |     100 |      100 |     100 |     100 |                                                              
+ Planner.tsx |    31.7 |       10 |   16.66 |    32.5 | 38-40,44-46,50-52,56-58,65-67,70-78,82-84,87,102-124,154-207 
+-------------|---------|----------|---------|---------|--------------------------------------------------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.6 s
+Time:        1.651 s
 Ran all test suites.

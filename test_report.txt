@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (200 ms)
+  ✕ renders the course name somewhere (128 ms)
 
   ● renders the course name somewhere
 
@@ -88,6 +88,9 @@ FAIL src/App.test.tsx
                     [36m</td>[39m
                     [36m<td>[39m
                       [36m<button>[39m
+                        [0mEdit Course[0m
+                      [36m</button>[39m
+                      [36m<button>[39m
                         [0mRemove Course[0m
                       [36m</button>[39m
                     [36m</td>[39m
@@ -114,6 +117,9 @@ FAIL src/App.test.tsx
                       [0mFall[0m
                     [36m</td>[39m
                     [36m<td>[39m
+                      [36m<button>[39m
+                        [0mEdit Course[0m
+                      [36m</button>[39m
                       [36m<button>[39m
                         [0mRemove Course[0m
                       [36m</button>[39m
@@ -142,6 +148,9 @@ FAIL src/App.test.tsx
                     [36m</td>[39m
                     [36m<td>[39m
                       [36m<button>[39m
+                        [0mEdit Course[0m
+                      [36m</button>[39m
+                      [36m<button>[39m
                         [0mRemove Course[0m
                       [36m</button>[39m
                     [36m</td>[39m
@@ -166,15 +175,7 @@ FAIL src/App.test.tsx
                       [0mStudents who received credit in MATH 242 or MATH 243 are not eligible to take this course without permission.[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0mUniversity: Mathematics, Natural Sciences and Technology; A&S: GROUP D: A&S Math, Nat Sci & Technology[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mFall, Winter, Spring, Summer[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [36m<button>[39m
-                        [0mRemove Course[0m
-                      ...
+                      [0mUniversity: Mathematics, Natural Sciences...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -194,15 +195,15 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
--------------|---------|----------|---------|---------|-----------------------------------
-File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                 
--------------|---------|----------|---------|---------|-----------------------------------
-All files    |   40.74 |       50 |   33.33 |   40.74 |                                   
- App.tsx     |     100 |      100 |     100 |     100 |                                   
- Planner.tsx |      36 |       50 |   27.27 |      36 | 38-40,44-46,50-52,56-58,70-78,119 
--------------|---------|----------|---------|---------|-----------------------------------
+-------------|---------|----------|---------|---------|---------------------------------------------
+File         | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                           
+-------------|---------|----------|---------|---------|---------------------------------------------
+All files    |    37.5 |       10 |   28.57 |    37.5 |                                             
+ App.tsx     |     100 |      100 |     100 |     100 |                                             
+ Planner.tsx |   33.33 |       10 |   23.07 |   33.33 | 38-40,44-46,50-52,56-58,65-67,79-87,128-181 
+-------------|---------|----------|---------|---------|---------------------------------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.383 s
+Time:        1.6 s
 Ran all test suites.

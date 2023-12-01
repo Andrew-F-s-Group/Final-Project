@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (154 ms)
+  ✕ renders the course name somewhere (161 ms)
 
   ● renders the course name somewhere
 
@@ -22,68 +22,93 @@ FAIL src/App.test.tsx
           [36m<div[39m
             [33mclass[39m=[32m"semester-courses"[39m
           [36m>[39m
-            [36m<select>[39m
-              [36m<option[39m
-                [33mdisabled[39m=[32m""[39m
-                [33mvalue[39m=[32m""[39m
-              [36m>[39m
-                [0mSelected Semester[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Fall 2022"[39m
-              [36m>[39m
-                [0mFall 2022[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Spring 2023"[39m
-              [36m>[39m
-                [0mSpring 2023[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Fall 2023"[39m
-              [36m>[39m
-                [0mFall 2023[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Spring 2024"[39m
-              [36m>[39m
-                [0mSpring 2024[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Fall 2024"[39m
-              [36m>[39m
-                [0mFall 2024[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Spring 2025"[39m
-              [36m>[39m
-                [0mSpring 2025[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Fall 2025"[39m
-              [36m>[39m
-                [0mFall 2025[0m
-              [36m</option>[39m
-              [36m<option[39m
-                [33mvalue[39m=[32m"Spring 2026"[39m
-              [36m>[39m
-                [0mSpring 2026[0m
-              [36m</option>[39m
-            [36m</select>[39m
-            [36m<input[39m
-              [33mplaceholder[39m=[32m"Search by Course Code"[39m
-              [33mtype[39m=[32m"text"[39m
-              [33mvalue[39m=[32m""[39m
-            [36m/>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"plan-buttons"[39m
+            [36m>[39m
+              [36m<select>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"0"[39m
+                [36m>[39m
+                  [0mComputer Science Degree[0m
+                [36m</option>[39m
+              [36m</select>[39m
+              [36m<button>[39m
+                [0mInsert New Plan[0m
+              [36m</button>[39m
+              [36m<button>[39m
+                [0mRemove Current Plan[0m
+              [36m</button>[39m
+            [36m</div>[39m
             [36m<h1>[39m
               [0mComputer Science Degree[0m
             [36m</h1>[39m
-            [36m<button>[39m
-              [0mInsert New Semester[0m
-            [36m</button>[39m
-            [36m<button>[39m
-              [0mClear All Semesters[0m
-            [36m</button>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"button-row"[39m
+            [36m>[39m
+              [36m<button>[39m
+                [0mInsert New Semester[0m
+              [36m</button>[39m
+              [36m<button>[39m
+                [0mClear All Semesters[0m
+              [36m</button>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"search-bar"[39m
+            [36m>[39m
+              [36m<select>[39m
+                [36m<option[39m
+                  [33mdisabled[39m=[32m""[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m>[39m
+                  [0mSelected Semester[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Fall 2022"[39m
+                [36m>[39m
+                  [0mFall 2022[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Spring 2023"[39m
+                [36m>[39m
+                  [0mSpring 2023[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Fall 2023"[39m
+                [36m>[39m
+                  [0mFall 2023[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Spring 2024"[39m
+                [36m>[39m
+                  [0mSpring 2024[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Fall 2024"[39m
+                [36m>[39m
+                  [0mFall 2024[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Spring 2025"[39m
+                [36m>[39m
+                  [0mSpring 2025[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Fall 2025"[39m
+                [36m>[39m
+                  [0mFall 2025[0m
+                [36m</option>[39m
+                [36m<option[39m
+                  [33mvalue[39m=[32m"Spring 2026"[39m
+                [36m>[39m
+                  [0mSpring 2026[0m
+                [36m</option>[39m
+              [36m</select>[39m
+              [36m<input[39m
+                [33mplaceholder[39m=[32m"Search by Course Code"[39m
+                [33mtype[39m=[32m"text"[39m
+                [33mvalue[39m=[32m""[39m
+              [36m/>[39m
+            [36m</div>[39m
             [36m<div[39m
               [33mstyle[39m=[32m"display: block;"[39m
             [36m>[39m
@@ -135,6 +160,9 @@ FAIL src/App.test.tsx
                     [36m<th>[39m
                       [0mTypically Offered[0m
                     [36m</th>[39m
+                    [36m<th>[39m
+                      [0mActions[0m
+                    [36m</th>[39m
                   [36m</tr>[39m
                 [36m</thead>[39m
                 [36m<tbody>[39m
@@ -166,6 +194,9 @@ FAIL src/App.test.tsx
                       [36m<button>[39m
                         [0mRemove Course[0m
                       [36m</button>[39m
+                      [36m<button>[39m
+                        [0mMove Course[0m
+                      [36m</button>[39m
                     [36m</td>[39m
                   [36m</tr>[39m
                   [36m<tr>[39m
@@ -176,31 +207,7 @@ FAIL src/App.test.tsx
                       [0mIntroduction to Engineering[0m
                     [36m</td>[39m
                     [36m<td>[39m
-                      [0m 2[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mIntroduction to profession, including disciplines of chemical, civil, computer, electrical, environmental, and mechanical engineering.  Prepares students for success through integration of:  technical problem solving and engineering design, ethical decision-making, teamwork, and communicating to diverse audiences.[0m
-                    [36m</td>[39m
-                    [36m<td />[39m
-                    [36m<td />[39m
-                    [36m<td>[39m
-                      [0mUniversity: ; A&S: [0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mFall[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [36m<button>[39m
-                        [0mEdit Course[0m
-                      [36m</button>[39m
-                      [36m<button>[39m
-                        [0mRemove Course[0m
-                      [36m</button>[39m
-                    [36m</td>[39m
-                  [36m</tr>[39m
-                  [36m<tr>[39m
-                    [36m<td>[39m
-                      [...
+                      [0m 2[0m...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -220,16 +227,25 @@ FAIL src/App.test.tsx
       at _run10000 (node_modules/@jest/core/build/cli/index.js:320:7)
       at runCLI (node_modules/@jest/core/build/cli/index.js:173:3)
 
-----------------|---------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------
-File            | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                             
-----------------|---------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------
-All files       |   37.11 |    25.92 |   21.05 |   38.46 |                                                                                                                               
- App.tsx        |     100 |      100 |     100 |     100 |                                                                                                                               
- CourseList.tsx |   16.66 |      100 |       0 |   16.66 | 14-27                                                                                                                         
- Planner.tsx    |   37.07 |    25.92 |   21.21 |   38.55 | 56-57,69-80,85-87,91-93,97-99,103-105,112-114,117-127,131-133,139-141,145-147,153-155,158,161-163,166-167,175,219-257,290-349 
-----------------|---------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------
+-----------------------|---------|----------|---------|---------|----------------------------------------------------------------------------------------------------------------------------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                                            
+-----------------------|---------|----------|---------|---------|----------------------------------------------------------------------------------------------------------------------------------------------
+All files              |   35.21 |    22.85 |    19.6 |   36.29 |                                                                                                                                              
+ src                   |   34.28 |    22.85 |    19.6 |   35.33 |                                                                                                                                              
+  App.tsx              |     100 |      100 |     100 |     100 |                                                                                                                                              
+  CourseList.tsx       |   16.66 |      100 |       0 |   16.66 | 14-27                                                                                                                                        
+  Planner.tsx          |   36.84 |    35.89 |   29.41 |   36.84 | 52,77,113-151,185-293                                                                                                                        
+  PlannerFunctions.tsx |   34.21 |     6.45 |   13.79 |   35.51 | 37,41-47,51-62,72,80-108,124-125,134-150,155-157,161-163,167-169,173-175,183-185,189-199,203-205,211-213,217-219,225-227,231,235-237,241-242 
+ src/degrees           |     100 |      100 |     100 |     100 |                                                                                                                                              
+  CompSci.ts           |     100 |      100 |     100 |     100 |                                                                                                                                              
+  EmptyPlan.ts         |     100 |      100 |     100 |     100 |                                                                                                                                              
+ src/interfaces        |       0 |        0 |       0 |       0 |                                                                                                                                              
+  Course.ts            |       0 |        0 |       0 |       0 |                                                                                                                                              
+  Plan.ts              |       0 |        0 |       0 |       0 |                                                                                                                                              
+  Semester.ts          |       0 |        0 |       0 |       0 |                                                                                                                                              
+-----------------------|---------|----------|---------|---------|----------------------------------------------------------------------------------------------------------------------------------------------
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        1.851 s
+Time:        2.608 s
 Ran all test suites.

@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (183 ms)
+  ✕ renders the course name somewhere (187 ms)
 
   ● renders the course name somewhere
 
@@ -42,6 +42,39 @@ FAIL src/App.test.tsx
                 [36m</div>[39m
               [36m</div>[39m
             [36m</header>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"box"[39m
+          [36m>[39m
+            [36m<a[39m
+              [33mclass[39m=[32m"button"[39m
+              [33mhref[39m=[32m"#popup1"[39m
+            [36m>[39m
+              [0mHelp[0m
+            [36m</a>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"overlay"[39m
+            [33mid[39m=[32m"popup1"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"popup"[39m
+            [36m>[39m
+              [36m<h2>[39m
+                [0mButton Information[0m
+              [36m</h2>[39m
+              [36m<a[39m
+                [33mclass[39m=[32m"close"[39m
+                [33mhref[39m=[32m"#"[39m
+              [36m>[39m
+                [0m×[0m
+              [36m</a>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"content"[39m
+              [36m>[39m
+                [0mhelp/ |-- plans/ | |-- insert plan | |-- remove plan | |-- rename plan |-- semester/ | |-- clear all semesters | |-- remove semester[0m
+              [36m</div>[39m
+            [36m</div>[39m
           [36m</div>[39m
           [36m<div[39m
             [33mclass[39m=[32m"Planner"[39m
@@ -175,36 +208,7 @@ FAIL src/App.test.tsx
                   [36m</button>[39m
                   [36m<div[39m
                     [33mclass[39m=[32m"button-container"[39m
-                  [36m>[39m
-                    [36m<button[39m
-                      [33mclass[39m=[32m"clear-coursesSemesters"[39m
-                    [36m>[39m
-                      [0mClear Courses in Semester[0m
-                    [36m</button>[39m
-                    [36m<button[39m
-                      [33mclass[39m=[32m"insert-newCourse"[39m
-                    [36m>[39m
-                      [0mInsert New Course[0m
-                    [36m</button>[39m
-                  [36m</div>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"remove-Semester"[39m
-                  [36m>[39m
-                    [0mRemove Semester[0m
-                  [36m</button>[39m
-                [36m</div>[39m
-                [36m<table>[39m
-                  [36m<thead>[39m
-                    [36m<tr>[39m
-                      [36m<th>[39m
-                        [0mCourse Code[0m
-                      [36m</th>[39m
-                      [36m<th>[39m
-                        [0mCourse Name[0m
-                      [36m</th>[39m
-                      [36m<th>[39m
-                        [0mCredits[0m
-          ...
+       ...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -244,5 +248,5 @@ All files              |   33.77 |     35.1 |   18.86 |   34.72 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.612 s
+Time:        2.627 s
 Ran all test suites.

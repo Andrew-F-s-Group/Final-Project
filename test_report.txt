@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (192 ms)
+  ✕ renders the course name somewhere (177 ms)
 
   ● renders the course name somewhere
 
@@ -15,200 +15,196 @@ FAIL src/App.test.tsx
     Ignored nodes: comments, <script />, <style />
     [36m<body>[39m
       [36m<div>[39m
-        [36m<div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"App"[39m
+        [36m>[39m
           [36m<div[39m
-            [33mclass[39m=[32m"semester-courses"[39m
+            [33mclass[39m=[32m"header"[39m
           [36m>[39m
+            [36m<header>[39m
+              [36m<div[39m
+                [33mid[39m=[32m"main"[39m
+              [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"center"[39m
+                [36m>[39m
+                  [36m<h1>[39m
+                    [0mUniversity of Delaware Scheduler[0m
+                  [36m</h1>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"div2"[39m
+                  [36m>[39m
+                    [0m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
+                  [36m</div>[39m
+                  [36m<span>[39m
+                    [0mWelcome to our UD Scheduler! Here you can make a nice layout of what classes you need to take during the spring and fall semester to ensure your on the right track to graduate at your expected year! Please Check the bottom see your desired major.[0m
+                  [36m</span>[39m
+                [36m</div>[39m
+              [36m</div>[39m
+            [36m</header>[39m
+          [36m</div>[39m
+          [36m<div>[39m
             [36m<div[39m
-              [33mclass[39m=[32m"plan-buttons"[39m
+              [33mclass[39m=[32m"semester-courses"[39m
             [36m>[39m
-              [36m<select>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"0"[39m
-                [36m>[39m
-                  [0mComputer Science Degree[0m
-                [36m</option>[39m
-              [36m</select>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"insert-Plan"[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"plan-buttons"[39m
               [36m>[39m
-                [0mInsert New Plan[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"remove-currentPlan"[39m
+                [36m<select>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"0"[39m
+                  [36m>[39m
+                    [0mComputer Science Degree[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"insert-Plan"[39m
+                [36m>[39m
+                  [0mInsert New Plan[0m
+                [36m</button>[39m
+                [36m<button[39m
+                  [33mclass[39m=[32m"remove-currentPlan"[39m
+                [36m>[39m
+                  [0mRemove Current Plan[0m
+                [36m</button>[39m
+              [36m</div>[39m
+              [36m<h1[39m
+                [33mclass[39m=[32m"plan-title"[39m
               [36m>[39m
-                [0mRemove Current Plan[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<h1[39m
-              [33mclass[39m=[32m"plan-title"[39m
-            [36m>[39m
-              [36m<span[39m
-                [33mclass[39m=[32m"arrow-icon rotate"[39m
-              [36m>[39m
-                [0m▶[0m
-              [36m</span>[39m
-              [0m [0m
-              [0mComputer Science Degree[0m
-            [36m</h1>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"button-row"[39m
-            [36m>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"insert-newSemster"[39m
-              [36m>[39m
-                [0mInsert New Semester[0m
-              [36m</button>[39m
-              [36m<button[39m
-                [33mclass[39m=[32m"clear-allSemesters"[39m
-              [36m>[39m
-                [0mClear All Semesters[0m
-              [36m</button>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"search-bar"[39m
-            [36m>[39m
-              [36m<select>[39m
-                [36m<option[39m
-                  [33mdisabled[39m=[32m""[39m
-                  [33mvalue[39m=[32m""[39m
-                [36m>[39m
-                  [0mSelected Semester[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Fall 2022"[39m
-                [36m>[39m
-                  [0mFall 2022[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Spring 2023"[39m
-                [36m>[39m
-                  [0mSpring 2023[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Fall 2023"[39m
-                [36m>[39m
-                  [0mFall 2023[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Spring 2024"[39m
-                [36m>[39m
-                  [0mSpring 2024[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Fall 2024"[39m
-                [36m>[39m
-                  [0mFall 2024[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Spring 2025"[39m
-                [36m>[39m
-                  [0mSpring 2025[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Fall 2025"[39m
-                [36m>[39m
-                  [0mFall 2025[0m
-                [36m</option>[39m
-                [36m<option[39m
-                  [33mvalue[39m=[32m"Spring 2026"[39m
-                [36m>[39m
-                  [0mSpring 2026[0m
-                [36m</option>[39m
-              [36m</select>[39m
-              [36m<input[39m
-                [33mplaceholder[39m=[32m"Search by Course Code"[39m
-                [33mtype[39m=[32m"text"[39m
-                [33mvalue[39m=[32m""[39m
-              [36m/>[39m
-            [36m</div>[39m
-            [36m<div[39m
-              [33mclass[39m=[32m"seasons-header"[39m
-              [33mstyle[39m=[32m"display: block; background: rgb(255, 204, 203);"[39m
-            [36m>[39m
-              [36m<h2>[39m
                 [36m<span[39m
                   [33mclass[39m=[32m"arrow-icon rotate"[39m
                 [36m>[39m
                   [0m▶[0m
                 [36m</span>[39m
-                [0mFall 2022[0m
-              [36m</h2>[39m
+                [0m [0m
+                [0mComputer Science Degree[0m
+              [36m</h1>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"semester-buttons"[39m
+                [33mclass[39m=[32m"button-row"[39m
               [36m>[39m
                 [36m<button[39m
-                  [33mclass[39m=[32m"skip-Button"[39m
+                  [33mclass[39m=[32m"insert-newSemster"[39m
                 [36m>[39m
-                  [0mSkip[0m
+                  [0mInsert New Semester[0m
                 [36m</button>[39m
-                [36m<div[39m
-                  [33mclass[39m=[32m"button-container"[39m
-                [36m>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"clear-coursesSemesters"[39m
-                  [36m>[39m
-                    [0mClear Courses in Semester[0m
-                  [36m</button>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"insert-newCourse"[39m
-                  [36m>[39m
-                    [0mInsert New Course[0m
-                  [36m</button>[39m
-                [36m</div>[39m
                 [36m<button[39m
-                  [33mclass[39m=[32m"remove-Semester"[39m
+                  [33mclass[39m=[32m"clear-allSemesters"[39m
                 [36m>[39m
-                  [0mRemove Semester[0m
+                  [0mClear All Semesters[0m
                 [36m</button>[39m
               [36m</div>[39m
-              [36m<table>[39m
-                [36m<thead>[39m
-                  [36m<tr>[39m
-                    [36m<th>[39m
-                      [0mCourse Code[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mCourse Name[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mCredits[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mDescription[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mPrerequisites[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mRestrictions[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mBreadth[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mTypically Offered[0m
-                    [36m</th>[39m
-                    [36m<th>[39m
-                      [0mActions[0m
-                    [36m</th>[39m
-                  [36m</tr>[39m
-                [36m</thead>[39m
-                [36m<tbody>[39m
-                  [36m<tr>[39m
-                    [36m<td>[39m
-                      [0mCISC 108[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mIntroduction to Computer Science I[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0m 3[0m
-                    [36m</td>[39m
-                    [36m<td>[39m
-                      [0mComputing and principles of programming with an emphasis on systematic program design. Topics include functional programming, data abstraction, procedural abstraction, use of control and state, recursion, testing, and object-oriented programming concepts. Requires no prior programming experience, open to any major, but intended primarily for majors and minors in computer science or mathematics.[0m
-                    [36m</td>[39m
-             ...
+              [36m<div[39m
+                [33mclass[39m=[32m"search-bar"[39m
+              [36m>[39m
+                [36m<select>[39m
+                  [36m<option[39m
+                    [33mdisabled[39m=[32m""[39m
+                    [33mvalue[39m=[32m""[39m
+                  [36m>[39m
+                    [0mSelected Semester[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Fall 2022"[39m
+                  [36m>[39m
+                    [0mFall 2022[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Spring 2023"[39m
+                  [36m>[39m
+                    [0mSpring 2023[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Fall 2023"[39m
+                  [36m>[39m
+                    [0mFall 2023[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Spring 2024"[39m
+                  [36m>[39m
+                    [0mSpring 2024[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Fall 2024"[39m
+                  [36m>[39m
+                    [0mFall 2024[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Spring 2025"[39m
+                  [36m>[39m
+                    [0mSpring 2025[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Fall 2025"[39m
+                  [36m>[39m
+                    [0mFall 2025[0m
+                  [36m</option>[39m
+                  [36m<option[39m
+                    [33mvalue[39m=[32m"Spring 2026"[39m
+                  [36m>[39m
+                    [0mSpring 2026[0m
+                  [36m</option>[39m
+                [36m</select>[39m
+                [36m<input[39m
+                  [33mplaceholder[39m=[32m"Search by Course Code"[39m
+                  [33mtype[39m=[32m"text"[39m
+                  [33mvalue[39m=[32m""[39m
+                [36m/>[39m
+              [36m</div>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"seasons-header"[39m
+                [33mstyle[39m=[32m"display: block; background: rgb(255, 204, 203);"[39m
+              [36m>[39m
+                [36m<h2>[39m
+                  [36m<span[39m
+                    [33mclass[39m=[32m"arrow-icon rotate"[39m
+                  [36m>[39m
+                    [0m▶[0m
+                  [36m</span>[39m
+                  [0mFall 2022[0m
+                [36m</h2>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"semester-buttons"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"skip-Button"[39m
+                  [36m>[39m
+                    [0mSkip[0m
+                  [36m</button>[39m
+                  [36m<div[39m
+                    [33mclass[39m=[32m"button-container"[39m
+                  [36m>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"clear-coursesSemesters"[39m
+                    [36m>[39m
+                      [0mClear Courses in Semester[0m
+                    [36m</button>[39m
+                    [36m<button[39m
+                      [33mclass[39m=[32m"insert-newCourse"[39m
+                    [36m>[39m
+                      [0mInsert New Course[0m
+                    [36m</button>[39m
+                  [36m</div>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"remove-Semester"[39m
+                  [36m>[39m
+                    [0mRemove Semester[0m
+                  [36m</button>[39m
+                [36m</div>[39m
+                [36m<table>[39m
+                  [36m<thead>[39m
+                    [36m<tr>[39m
+                      [36m<th>[39m
+                        [0mCourse Code[0m
+                      [36m</th>[39m
+                      [36m<th>[39m
+                        [0mCourse Name[0m
+                      [36m</th>[39m
+                      [36m<th>[39m
+                        [0mCredits[0m
+                      [36m</th>[39m
+                      [36m<th>[39m
+                        [0mDescription[0m
+                      [3...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -248,5 +244,5 @@ All files              |   33.77 |     35.1 |   18.86 |   34.72 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.572 s
+Time:        2.561 s
 Ran all test suites.

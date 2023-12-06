@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (190 ms)
+  ✕ renders the course name somewhere (186 ms)
 
   ● renders the course name somewhere
 
@@ -116,22 +116,22 @@ FAIL src/App.test.tsx
                 [0mComputer Science Degree[0m
               [36m</h1>[39m
               [36m<div[39m
-                [33mclass[39m=[32m"button-row"[39m
-              [36m>[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"insert-newSemster"[39m
-                [36m>[39m
-                  [0mInsert New Semester[0m
-                [36m</button>[39m
-                [36m<button[39m
-                  [33mclass[39m=[32m"clear-allSemesters"[39m
-                [36m>[39m
-                  [0mClear All Semesters[0m
-                [36m</button>[39m
-              [36m</div>[39m
-              [36m<div[39m
                 [33mclass[39m=[32m"search-bar"[39m
               [36m>[39m
+                [36m<div[39m
+                  [33mclass[39m=[32m"button-row"[39m
+                [36m>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"insert-newSemster"[39m
+                  [36m>[39m
+                    [0mInsert New Semester[0m
+                  [36m</button>[39m
+                  [36m<button[39m
+                    [33mclass[39m=[32m"clear-allSemesters"[39m
+                  [36m>[39m
+                    [0mClear All Semesters[0m
+                  [36m</button>[39m
+                [36m</div>[39m
                 [36m<select>[39m
                   [36m<option[39m
                     [33mdisabled[39m=[32m""[39m
@@ -208,7 +208,7 @@ FAIL src/App.test.tsx
                     [0mSkip[0m
                   [36m</button>[39m
                   [36m<div[39m
-                    [33mclass[39m=[32m"bu...
+                ...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -248,5 +248,5 @@ All files              |   33.77 |     35.1 |   18.86 |   34.72 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.714 s
+Time:        2.708 s
 Ran all test suites.

@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 FAIL src/App.test.tsx
-  ✕ renders the course name somewhere (185 ms)
+  ✕ renders the course name somewhere (186 ms)
 
   ● renders the course name somewhere
 
@@ -28,8 +28,15 @@ FAIL src/App.test.tsx
                 [36m<div[39m
                   [33mclass[39m=[32m"center"[39m
                 [36m>[39m
+                  [36m<img[39m
+                    [33malt[39m=[32m"UD"[39m
+                    [33mclass[39m=[32m"logo"[39m
+                    [33mheight[39m=[32m"150"[39m
+                    [33msrc[39m=[32m"UDMonogramC.jpg"[39m
+                    [33mwidth[39m=[32m"150"[39m
+                  [36m/>[39m
                   [36m<h1>[39m
-                    [0mUniversity of Delaware Scheduler[0m
+                    [0m University of Delaware Scheduler[0m
                   [36m</h1>[39m
                   [36m<div[39m
                     [33mclass[39m=[32m"div2"[39m
@@ -37,7 +44,7 @@ FAIL src/App.test.tsx
                     [0m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m
                   [36m</div>[39m
                   [36m<span>[39m
-                    [0mWelcome to our UD Scheduler! Here you can make a nice layout of what classes you need to take during the spring and fall semester to ensure your on the right track to graduate at your expected year! Please Check the bottom see your desired major.[0m
+                    [0mWelcome to our UD Scheduler! Here you can make a nice layout of what classes you need to take during the spring and fall semester to ensure your on the right track to graduate at your expected year! Please Check the bottom see your desired major. Insert Plan when clicked you will be able to add a create a new plan, When clicking on remove plan it will remove plan that you have highlighted. When Clicking on Rename Plan you will be able to click on it making it so that you will be able to rename the plan that is highlighted. When clicking on Insert New Semester it will create either Fall or Spring semester. Clear all Semester will remove all semesters on the current plan your working on. Remove semester will remove the semester you highlighted.[0m
                   [36m</span>[39m
                 [36m</div>[39m
               [36m</div>[39m
@@ -181,29 +188,7 @@ FAIL src/App.test.tsx
                       [33mclass[39m=[32m"clear-coursesSemesters"[39m
                     [36m>[39m
                       [0mClear Courses in Semester[0m
-                    [36m</button>[39m
-                    [36m<button[39m
-                      [33mclass[39m=[32m"insert-newCourse"[39m
-                    [36m>[39m
-                      [0mInsert New Course[0m
-                    [36m</button>[39m
-                  [36m</div>[39m
-                  [36m<button[39m
-                    [33mclass[39m=[32m"remove-Semester"[39m
-                  [36m>[39m
-                    [0mRemove Semester[0m
-                  [36m</button>[39m
-                [36m</div>[39m
-                [36m<table>[39m
-                  [36m<thead>[39m
-                    [36m<tr>[39m
-                      [36m<th>[39m
-                        [0mCourse Code[0m
-                      [36m</th>[39m
-                      [36m<th>[39m
-                        [0mCourse Name[0m
-                      [36m</th>[39m
-                      [36m...
+               ...
 
        5 | test("renders the course name somewhere", () => {
        6 |     render(<App />);
@@ -243,5 +228,5 @@ All files              |   33.77 |     35.1 |   18.86 |   34.72 |
 Test Suites: 1 failed, 1 total
 Tests:       1 failed, 1 total
 Snapshots:   0 total
-Time:        2.707 s
+Time:        2.68 s
 Ran all test suites.

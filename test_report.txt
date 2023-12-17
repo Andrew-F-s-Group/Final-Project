@@ -5,11 +5,88 @@
 Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
-  console.log
-    Selected Plan in App Component:  {
-      id: '3',
-      title: 'Empty Plan',
-      semesters: [
+Browserslist: caniuse-lite is outdated. Please run:
+  npx browserslist@latest --update-db
+  Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
+PASS src/Functions.test.tsx
+PASS src/App.test.tsx
+  ● Console
+
+    console.log
+      Selected Plan in App Component:  {
+        id: '3',
+        title: 'Empty Plan',
+        semesters: [
+          {
+            id: 'Fall 2022',
+            season: 'Fall',
+            year: '2022',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Spring 2023',
+            season: 'Spring',
+            year: '2023',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Fall 2023',
+            season: 'Fall',
+            year: '2023',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Spring 2024',
+            season: 'Spring',
+            year: '2024',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Fall 2024',
+            season: 'Fall',
+            year: '2024',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Spring 2025',
+            season: 'Spring',
+            year: '2025',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Fall 2025',
+            season: 'Fall',
+            year: '2025',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Spring 2026',
+            season: 'Spring',
+            year: '2026',
+            skip: false,
+            courses: []
+          },
+          {
+            id: 'Free Standing Pool',
+            season: 'Free Standing',
+            year: 'Pool',
+            skip: false,
+            courses: []
+          }
+        ]
+      }
+
+      at App (src/App.tsx:31:13)
+
+    console.log
+      Selected Plan Semesters:  [
         {
           id: 'Fall 2022',
           season: 'Fall',
@@ -74,102 +151,30 @@ Browserslist: caniuse-lite is outdated. Please run:
           courses: []
         }
       ]
-    }
-
-      at App (src/App.tsx:31:13)
-
-  console.log
-    Selected Plan Semesters:  [
-      {
-        id: 'Fall 2022',
-        season: 'Fall',
-        year: '2022',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Spring 2023',
-        season: 'Spring',
-        year: '2023',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Fall 2023',
-        season: 'Fall',
-        year: '2023',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Spring 2024',
-        season: 'Spring',
-        year: '2024',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Fall 2024',
-        season: 'Fall',
-        year: '2024',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Spring 2025',
-        season: 'Spring',
-        year: '2025',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Fall 2025',
-        season: 'Fall',
-        year: '2025',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Spring 2026',
-        season: 'Spring',
-        year: '2026',
-        skip: false,
-        courses: []
-      },
-      {
-        id: 'Free Standing Pool',
-        season: 'Free Standing',
-        year: 'Pool',
-        skip: false,
-        courses: []
-      }
-    ]
 
       at App (src/App.tsx:32:13)
 
-PASS src/App.test.tsx
-  ✓ renders the app title (132 ms)
+-----------------------|---------|----------|---------|---------|-----------------------------------------------------------------------------------------------------------------------------------------
+File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                                       
+-----------------------|---------|----------|---------|---------|-----------------------------------------------------------------------------------------------------------------------------------------
+All files              |    38.5 |    31.11 |   21.42 |   39.75 |                                                                                                                                         
+ src                   |   37.42 |    31.11 |   21.42 |   38.65 |                                                                                                                                         
+  App.tsx              |      60 |    66.66 |      50 |   64.28 | 20-24                                                                                                                                   
+  CourseList.tsx       |   16.66 |      100 |       0 |   16.66 | 14-27                                                                                                                                   
+  Planner.tsx          |   33.33 |    37.77 |   22.22 |   33.33 | 60,110,150-363                                                                                                                          
+  PlannerFunctions.tsx |   36.43 |    17.94 |      20 |    37.7 | 38-47,56-66,74-80,84-95,105,113-141,167-183,188-190,194-196,200-202,206-208,212-229,233-235,241-243,247-249,255-257,261,265-267,271-272 
+ src/degrees           |     100 |      100 |     100 |     100 |                                                                                                                                         
+  CompSci.ts           |     100 |      100 |     100 |     100 |                                                                                                                                         
+  EmptyPlan.ts         |     100 |      100 |     100 |     100 |                                                                                                                                         
+  Physics.ts           |     100 |      100 |     100 |     100 |                                                                                                                                         
+ src/interfaces        |       0 |        0 |       0 |       0 |                                                                                                                                         
+  Course.ts            |       0 |        0 |       0 |       0 |                                                                                                                                         
+  Plan.ts              |       0 |        0 |       0 |       0 |                                                                                                                                         
+  Semester.ts          |       0 |        0 |       0 |       0 |                                                                                                                                         
+-----------------------|---------|----------|---------|---------|-----------------------------------------------------------------------------------------------------------------------------------------
 
------------------------|---------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------
-File                   | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                                                                                                                               
------------------------|---------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------
-All files              |   37.35 |       30 |   19.64 |   38.55 |                                                                                                                                                 
- src                   |   36.25 |       30 |   19.64 |   37.42 |                                                                                                                                                 
-  App.tsx              |      60 |    66.66 |      50 |   64.28 | 20-24                                                                                                                                           
-  CourseList.tsx       |   16.66 |      100 |       0 |   16.66 | 14-27                                                                                                                                           
-  Planner.tsx          |   33.33 |    37.77 |   22.22 |   33.33 | 60,110,150-363                                                                                                                                  
-  PlannerFunctions.tsx |   34.88 |    15.38 |   16.66 |   36.06 | 38-47,56-66,74-80,84-95,105,113-141,157-158,167-183,188-190,194-196,200-202,206-208,212-229,233-235,241-243,247-249,255-257,261,265-267,271-272 
- src/degrees           |     100 |      100 |     100 |     100 |                                                                                                                                                 
-  CompSci.ts           |     100 |      100 |     100 |     100 |                                                                                                                                                 
-  EmptyPlan.ts         |     100 |      100 |     100 |     100 |                                                                                                                                                 
-  Physics.ts           |     100 |      100 |     100 |     100 |                                                                                                                                                 
- src/interfaces        |       0 |        0 |       0 |       0 |                                                                                                                                                 
-  Course.ts            |       0 |        0 |       0 |       0 |                                                                                                                                                 
-  Plan.ts              |       0 |        0 |       0 |       0 |                                                                                                                                                 
-  Semester.ts          |       0 |        0 |       0 |       0 |                                                                                                                                                 
------------------------|---------|----------|---------|---------|-------------------------------------------------------------------------------------------------------------------------------------------------
-Test Suites: 1 passed, 1 total
-Tests:       1 passed, 1 total
+Test Suites: 2 passed, 2 total
+Tests:       3 passed, 3 total
 Snapshots:   0 total
-Time:        2.624 s
+Time:        2.956 s
 Ran all test suites.
